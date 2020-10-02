@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 86px;
+}
+
+header>h1{
+    float: left;
+}
+
+nav{
+    float: right;
+    padding-top: 1.75em;
+}
+
+nav>a{
+    padding-right: 1em;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.icon{
+    max-height: 24px;
+}
+
+.mainhead{
+    float: left;
+    background-image: url(../img/blue-electronics-light-audio-equipment-technology-electronic-device-electric-blue-mixing-console-electronic-instrument-1563027.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+    text-align: center;
+}
+
+.mainhead>h1{
+    font-size: 48px;
+    padding-top: 2em;
+}
+
+section{
+    float: left;
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 24px;
+}
+
+section>a{
+    font-size: 24px;
+    color: white;
+    text-align: right;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1em;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/*.imgart1{
+    background-image: url(../IMGS/intel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgart2{
+    background-image: url(../IMGS/PS5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgart3{
+    background-image: url(../IMGS/opera.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

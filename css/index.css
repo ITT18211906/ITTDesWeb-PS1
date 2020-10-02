@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/blue-electronics-light-audio-equipment-technology-electronic-device-electric-blue-mixing-console-electronic-instrument-1563027.jpg); /*https://pxhere.com/en/photo/1563027*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+    font-family: 'Open Sans', sans-serif;
+}
+div>h1{
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 24px;
+    font-size: 36px;
+}
+div>a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 4px;
+    /*margin-left: 50%;*/
+}
+div>a:hover{
+    background-color: lightgray;
+}
